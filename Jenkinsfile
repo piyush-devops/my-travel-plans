@@ -6,9 +6,5 @@ pipeline {
         sh 'echo "Hello"'
       }
     }
-
-  }
-  environment {
-    Environment = 'Dev'
   }
 }
